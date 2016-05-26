@@ -1,5 +1,19 @@
 # Ruby To Python
-This is an open source project which converts Ruby code to Python. It is currently in Pre-Alpha development which means it should be used at the risk of the user. There is no guarantee that this will work for you nor should you try to use this for anything major at this project's current state.
+This is an open source project which converts Ruby code to Python. It is currently in Alpha development which means it should be used at the risk of the user. There is no guarantee that this will work for you nor should you try to use this for anything major at this project's current state.
+
+## Usage
+You can download the project by using the command
+
+    git clone https://github.com/snood1205/ruby-to-python
+
+Then you want to change into that directory by using
+
+    cd rubytopython
+
+Then you can call the project by using the command
+
+    rake run [RUBYFILEPATHHERE]
+
 
 ## License 
 This project is licensed under the Apache License 2.0 the full text of which is included within this repository. 
