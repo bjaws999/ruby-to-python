@@ -4,7 +4,7 @@ This is an open source project which converts Ruby code to Python. It is current
 ## Usage
 You can download the project by using the command
 
-    git clone https://github.com/snood1205/ruby-to-python
+    git clone https://github.com/snood1205/ruby-to-python.git
 
 Then you want to change into that directory by using
 
