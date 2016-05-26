@@ -24,3 +24,6 @@ class Convert
     end
 
 end
+
+test = Convert.new("test.rb")
+test.syntaxConvert

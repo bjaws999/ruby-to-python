@@ -16,7 +16,7 @@ class Line
             @line = ("\t" * indent) + @line
             indent -= 1
         elsif @line.start_with?("else","elsif")
-            @line[2..-1] = @line[3..-1] if @line.start_with?("elsif")
+            @line.gsub!('elsif','elif')
             @line << ":"
             @line = ("\t" * (indent - 1)) + @line
         else
