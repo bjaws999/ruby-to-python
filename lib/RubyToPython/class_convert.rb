@@ -1,0 +1,2 @@
+class ClassConvert < Convert
+    
