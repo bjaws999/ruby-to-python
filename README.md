@@ -15,6 +15,11 @@ Then you can call the project by using the command
     rake run [RUBYFILEPATHHERE]
 
 
+## Gem 
+A gem currently does exist but it does not do anything. If you want to download it for any reason you can by calling
+
+    gem install RubyToPython
+
 ## License 
 This project is licensed under the Apache License 2.0 the full text of which is included within this repository. 
 

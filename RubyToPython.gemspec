@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
     spec.name          = "RubyToPython"
-    spec.version       = 'Pre-Alpha'
+    spec.version       = '0.0'
     spec.authors       = ["Eli David Sadoff"]
     spec.email         = ["snood1205@gmail.com"]
     spec.summary       = %q{Converts ruby code to python}
@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
     spec.license       = "Apache License 2.0"
 
     spec.files         = ['lib/RubyToPython.rb']
-    spec.executables   = ['bin/RubyToPython']
+    spec.executables   = ['RubyToPython']
     spec.test_files    = ['tests/test_RubyToPython.rb']
     spec.require_paths = ["lib"]
 end
